@@ -3,9 +3,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isLoggedIn: Bool = false;
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if !isLoggedIn {
+            LoginView(isLoggedIn: $isLoggedIn)
+        } else {
+            MainView()
+        }
     }
 }
 

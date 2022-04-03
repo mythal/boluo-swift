@@ -17,6 +17,8 @@
 		3248997B27EB18B7005AA20C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248995127EB18B2005AA20C /* LoginView.swift */; };
 		3248997C27EB18B7005AA20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3248995227EB18B6005AA20C /* Assets.xcassets */; };
 		3248997D27EB18B7005AA20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3248995227EB18B6005AA20C /* Assets.xcassets */; };
+		326552A527F9C43000FFD2CB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326552A427F9C43000FFD2CB /* Colors.swift */; };
+		326552A627F9C43000FFD2CB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326552A427F9C43000FFD2CB /* Colors.swift */; };
 		32CC4CA727EC2BC500446639 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CC4CA627EC2BC500446639 /* MainView.swift */; };
 		32CC4CA827EC2BC500446639 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CC4CA627EC2BC500446639 /* MainView.swift */; };
 		32CC4CAD27EC2C1300446639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CC4CAC27EC2C1300446639 /* ContentView.swift */; };
@@ -53,6 +55,7 @@
 		3248997027EB18B7005AA20C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3248997427EB18B7005AA20C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		3248997627EB18B7005AA20C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		326552A427F9C43000FFD2CB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		32CC4CA627EC2BC500446639 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		32CC4CAC27EC2C1300446639 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +111,7 @@
 				3248995227EB18B6005AA20C /* Assets.xcassets */,
 				32CC4CA627EC2BC500446639 /* MainView.swift */,
 				32CC4CAC27EC2C1300446639 /* ContentView.swift */,
+				326552A427F9C43000FFD2CB /* Colors.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -308,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3248997A27EB18B7005AA20C /* LoginView.swift in Sources */,
+				326552A527F9C43000FFD2CB /* Colors.swift in Sources */,
 				32CC4CA727EC2BC500446639 /* MainView.swift in Sources */,
 				32CC4CAD27EC2C1300446639 /* ContentView.swift in Sources */,
 				3248997827EB18B7005AA20C /* boluo_swiftApp.swift in Sources */,
@@ -319,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3248997B27EB18B7005AA20C /* LoginView.swift in Sources */,
+				326552A627F9C43000FFD2CB /* Colors.swift in Sources */,
 				32CC4CA827EC2BC500446639 /* MainView.swift in Sources */,
 				32CC4CAE27EC2C1300446639 /* ContentView.swift in Sources */,
 				3248997927EB18B7005AA20C /* boluo_swiftApp.swift in Sources */,
@@ -475,6 +481,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6J3B4P32P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -504,6 +511,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6J3B4P32P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

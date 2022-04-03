@@ -5,23 +5,32 @@ import SwiftUI
 struct LoginView: View {
     @State var username: String = ""
     @State var password: String = ""
-    @State var count: Int = 0;
     @Binding var isLoggedIn: Bool
     
     func login() {
         self.isLoggedIn = true
     }
-
+    
     var body: some View {
-        VStack(alignment: .center){
-            Text("Boluo \(count)")
-                .font(.largeTitle)
-                .fontWeight(.semibold)
-                .padding(.vertical, 20)
-            TextField("Username", text: $username)
-            SecureField("Password", text: $password)
-            Button("Login", action: login)
-        }.padding()
+        ZStack{
+            Colors.Background.ignoresSafeArea()
+            VStack(alignment: .center){
+                VStack(alignment: .leading){
+                    Text("菠萝")
+                        .font(.largeTitle)
+                        .fontWeight(.semibold)
+                    Text("游玩桌面角色扮演游戏、微酸香甜。")
+                }.padding()
+                TextField("Username", text: $username).font(.title)
+                SecureField("Password", text: $password).font(.title)
+                Button(action: login) {
+                    VStack {
+                        Text("Login")
+                            .padding()
+                    }.background(Colors.DarkerBackground)
+                }
+            }
+        }.foregroundColor(Colors.Text)
     }
 }
 
